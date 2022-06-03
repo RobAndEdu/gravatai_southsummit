@@ -289,6 +289,25 @@ h6 {
 }
 
 
+/* ---------------------------------------------------------------------------------------------------------------------------------------------
+
+                            Tradutor do Google
+
+---------------------------------------------------------------------------------------------------------------------------------------------                             */
+
+#google_translate_element,
+.goog-te-banner-frame,
+.goog-te-ballon-frame,
+#goog-gt-tt,
+.goog-te-ballon-frame,
+.goog-tooltip,
+.goog-tooltip:hover {
+    display: none !important;
+}
+
+function ChangeLang(a) {}
+
+
 /**
 * Mobile Navigation 
 */
@@ -1882,13 +1901,4 @@ section {
     #footer .credits {
         padding-top: 4px;
     }
-}
-
-
-}
-
-}
-
-}
-
 }
